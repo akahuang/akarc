@@ -1,7 +1,8 @@
 push: bashrc vimrc
 	cp ./bashrc ~/.bashrc
 	cp ./vimrc ~/.vimrc
+	./push_git.py
 pull:
 	cp ~/.bashrc ./bashrc
 	cp ~/.vimrc ./vimrc
-	./pull.py
+	./pull_git.py

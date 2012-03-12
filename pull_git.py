@@ -2,9 +2,8 @@
 import os
 
 src_file = os.environ['HOME'] + '/.gitconfig'
-print src_file
 des_file = './gitconfig'
-ignore_tag = ['[user]', '[github]']
+ignore_tag = ['[user]\n', '[github]\n']
 
 fin = open(src_file, 'r')
 fout = open(des_file, 'w')
