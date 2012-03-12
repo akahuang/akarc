@@ -18,17 +18,17 @@ function prompt_command {
     TERMWIDTH=${COLUMNS}
     newPWD=`echo -n $PWD | perl -p -e "s{$HOME}{~}"`
 
-    local temp="[$(whoami)] $newPWD $(git_branch)"
+    local temp="[$USER@$HOSTNAME] $newPWD $(git_branch)"
     let fillsize=${TERMWIDTH}-${#temp}
     fill=""
     if [ "$fillsize" -gt "0" ]
     then
-        fill="--------------------------------------------------------------------------------------------------------------"
+        fill="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
         fill="${fill:0:${fillsize}}"
     fi
 }
 
 PROMPT_COMMAND=prompt_command
 PS1='
-\033[1;34m[\u]\033[0m \033[0;36m\w\033[0m $(git_branch)\033[1;30m${fill}\033[m
+\033[1;34m[\u@\H]\033[0m \033[0;36m\w\033[0m $(git_branch)\033[1;30m${fill}\033[m
 \$ '
