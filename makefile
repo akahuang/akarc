@@ -1,4 +1,4 @@
-push: bashrc vimrc
+push:
 	cp ./bashrc ~/.bashrc
 	cp ./vimrc ~/.vimrc
 	./push_git.py

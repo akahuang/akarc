@@ -3,6 +3,8 @@ alias ll="ls -lFG"
 alias la="ls -aFG"
 alias rm="rm -i"
 alias gvim="open -a /Applications/MacVim.app"
+alias o="open"
+alias diff="diff -u"
 #alias g++cv="g++ -bind_at_load `pkg-config --cflags opencv` `pkg-config --libs opencv`"
 
 gp() { grep -r --color=always -n "$1" ./ ;}
