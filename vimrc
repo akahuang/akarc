@@ -22,6 +22,7 @@ set ai
 set hlsearch
 set incsearch
 set ignorecase
+set scrolloff=10
 
 set shiftwidth=4
 set softtabstop=4
