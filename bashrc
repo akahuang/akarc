@@ -1,3 +1,7 @@
+alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D/"
+alias acp="cd ~/Dropbox/code/ACP"
+alias db="cd ~/Dropbox"
+
 alias ls="ls -vFG"
 alias ll="ls -lFG"
 alias la="ls -aFG"
