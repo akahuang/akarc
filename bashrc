@@ -2,10 +2,14 @@ alias ls="ls -vFG"
 alias ll="ls -lFG"
 alias la="ls -aFG"
 alias rm="rm -i"
+alias top="top -o cpu"
 alias gvim="open -a /Applications/MacVim.app"
 alias o="open"
 alias diff="diff -u"
 #alias g++cv="g++ -bind_at_load `pkg-config --cflags opencv` `pkg-config --libs opencv`"
+
+alias db="cd ~/Dropbox/"
+alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D"
 
 gp() { grep -r --color=always -n "$1" ./ ;}
 alias fd='find ./ -name '
