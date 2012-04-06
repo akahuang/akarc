@@ -4,12 +4,9 @@ Usage
 Update setting from git
 ------
 
-    git pull
-    make push
+    make download
 
 Change setting then push to git
 -----
 
-    make pull
-    git commit
-    git push
+    make upload
