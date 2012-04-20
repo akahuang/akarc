@@ -47,6 +47,8 @@ map  <C-h> :tabprevious<CR>
 map  <C-l> :tabnext<CR>
 imap <C-c> <esc>
 map  <C-c> :nohl<cr>
+nmap ; :
+vmap ; :
 
 set directory=/tmp
 
