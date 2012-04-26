@@ -49,6 +49,7 @@ imap <C-c> <esc>
 map  <C-c> :nohl<cr>
 nmap ; :
 vmap ; :
+noremap <C-o> :NERDTree<CR>
 
 set directory=/tmp
 
