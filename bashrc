@@ -1,4 +1,6 @@
 PATH=~/bin:$PATH
+export EDITOR=vim
+
 alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D/"
 alias acp="cd ~/Dropbox/code/ACP"
 alias db="cd ~/Dropbox"

@@ -35,7 +35,7 @@ set encoding=utf-8
 
 map  <C-s> :w<CR>:%s=\s\+$==<CR>
 imap <C-s> <ESC>:w<CR>a
-map  <C-t> :tabnew<CR>
+map  <C-n> :tabnew<CR>
 
 imap <C-k> <up>
 imap <C-j> <down>
@@ -49,6 +49,10 @@ imap <C-c> <esc>
 map  <C-c> :nohl<cr>
 nmap ; :
 vmap ; :
+nmap <tab> v>
+nmap <s-tab> v<
+vmap <tab> >gv
+vmap <s-tab> <gv
 noremap <C-o> :NERDTree<CR>
 
 set directory=/tmp
