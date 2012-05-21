@@ -1,9 +1,12 @@
 PATH=~/bin:$PATH
 export EDITOR=vim
+export LC_CTYPE=zh_TW.UTF-8
 
 alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D/"
 alias acp="cd ~/Dropbox/code/ACP"
+alias mtk="cd ~/Dropbox/MTK\ Project/Yeh/"
 alias db="cd ~/Dropbox"
+alias papers="cd ~/Dropbox/code/python/Django/paperstorage"
 
 alias ss=". ~/.bashrc"
 alias ls="ls -vFG"
