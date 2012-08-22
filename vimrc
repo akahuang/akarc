@@ -12,7 +12,8 @@ if has('gui_running')
     set cursorline
 endif
 
-set fileformats=mac,unix,dos
+"set fileformats=mac,unix,dos
+set fileformat=dos
 set showtabline=2
 set nocompatible
 set nu
@@ -53,12 +54,11 @@ nmap <tab> v>
 nmap <s-tab> v<
 vmap <tab> >gv
 vmap <s-tab> <gv
-noremap <C-o> :NERDTree<CR>
 
 set directory=/tmp
 
 highlight OverLength ctermbg=cyan ctermfg=white guibg=cyan
 highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=red
-call matchadd('ExtraWhitespace', '\s\+$')
+"call matchadd('ExtraWhitespace', '\s\+$')
 "call matchadd('OverLength', '\%101v.\+')
 

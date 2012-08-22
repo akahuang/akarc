@@ -4,7 +4,7 @@ export LC_CTYPE=zh_TW.UTF-8
 
 alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D/"
 alias acp="cd ~/Dropbox/code/ACP"
-alias mtk="cd ~/Dropbox/MTK\ Project/Yeh/"
+alias mtk="cd ~/Dropbox/MTK\ Project/"
 alias db="cd ~/Dropbox"
 alias papers="cd ~/Dropbox/code/python/Django/paperstorage"
 
