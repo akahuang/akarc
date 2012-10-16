@@ -7,6 +7,7 @@ alias acp="cd ~/Dropbox/code/ACP"
 alias mtk="cd ~/Dropbox/MTK\ Project/"
 alias db="cd ~/Dropbox"
 alias ai="cd ~/Dropbox/NTU/101_1/ArtificialIntelligence/"
+alias sig="cd ~/Dropbox/NTU/Diwi\ Lab/SignalSeperation/data_matching/workspace"
 alias papers="cd ~/Dropbox/code/python/Django/paperstorage"
 
 alias ss=". ~/.bashrc"
