@@ -3,12 +3,12 @@ syntax on
 filetype on
 
 if has('gui_running')
-    set guifont=Monaco:h16
+    set guifont=Inconsolata:h22
     set guioptions-=T
     set guioptions-=m
     set guioptions+=c
     set columns=100
-    set lines=49
+    set lines=40
     set cursorline
 endif
 
