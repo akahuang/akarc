@@ -1,6 +1,7 @@
 colorscheme darkblue
 syntax on
 filetype on
+filetype plugin on
 
 if has('gui_running')
     set guifont=Inconsolata:h22
@@ -62,3 +63,5 @@ highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=red
 "call matchadd('ExtraWhitespace', '\s\+$')
 "call matchadd('OverLength', '\%101v.\+')
 
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+map <C-o> :TagbarToggle<CR>
