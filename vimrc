@@ -25,6 +25,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set scrolloff=10
+set showcmd
 
 set shiftwidth=4
 set softtabstop=4
