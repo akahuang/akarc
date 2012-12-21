@@ -2,13 +2,10 @@ PATH=~/bin:$PATH
 export EDITOR=vim
 export LC_CTYPE=zh_TW.UTF-8
 
-alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D/"
-alias acp="cd ~/Dropbox/code/ACP"
-alias mtk="cd ~/Dropbox/MTK\ Project/"
 alias db="cd ~/Dropbox"
 alias ai="cd ~/Dropbox/NTU/101_1/ArtificialIntelligence/"
 alias sig="cd ~/Dropbox/matlab/data_matching"
-alias papers="cd ~/Dropbox/code/python/Django/paperstorage"
+alias emd="cd ~/Dropbox/matlab/myEMD"
 
 alias ss=". ~/.bashrc"
 alias ls="ls -vFG"
@@ -23,8 +20,6 @@ alias o="open"
 alias diff="diff -u"
 #alias g++cv="g++ -bind_at_load `pkg-config --cflags opencv` `pkg-config --libs opencv`"
 
-alias db="cd ~/Dropbox/"
-alias d2d="cd ~/Dropbox/NTU/Diwi\ Lab/LTE\ Project/D2D"
 
 gp() { grep -r --color=always -n "$1" ./ ;}
 alias fd='find ./ -name '
