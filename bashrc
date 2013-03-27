@@ -5,7 +5,7 @@ export LC_CTYPE=zh_TW.UTF-8
 alias db="cd ~/Dropbox"
 alias ai="cd ~/Dropbox/NTU/101_1/ArtificialIntelligence/"
 alias sig="cd ~/Dropbox/matlab/data_matching"
-alias emd="cd ~/Dropbox/matlab/myEMD"
+alias gg="cd ~/Dropbox/matlab/thesis_project"
 
 alias ss=". ~/.bashrc"
 alias ls="ls -vFG"

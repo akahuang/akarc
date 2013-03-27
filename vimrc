@@ -18,7 +18,6 @@ set fileformat=dos
 set showtabline=2
 set nocompatible
 set nu
-set cindent
 set smartindent
 set ai
 set hlsearch
@@ -66,3 +65,5 @@ highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=red
 
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 map <C-o> :TagbarToggle<CR>
+map <C-g> :GitGutterLineHighlightsToggle<CR>
+call pathogen#infect() 
